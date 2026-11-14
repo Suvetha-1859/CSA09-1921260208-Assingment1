@@ -1,0 +1,11 @@
+TwoWheeler[TN01A1] : 130 min = Rs 30.0 , 10 hours = Rs 50.0
+Car[TN02B2] : 130 min = Rs 90.0 , 10 hours = Rs 240.0
+ElectricCar[TN03C3](EV) : 130 min = Rs 90.0 , 10 hours = Rs 240.0
+
+equals / hashCode:
+x == y       : false
+x.equals(y)  : true
+same hash    : true
+HashSet.add(second TN02B2) accepted? false , set size = 1
+
+Switch alternative: TwoWheeler 130 min = Rs 30.0
