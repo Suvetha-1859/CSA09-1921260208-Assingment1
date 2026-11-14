@@ -1,0 +1,18 @@
+Creating new ElectricCar("TN03C3", 40) - constructor execution order:
+  1. Vehicle constructor  (regNo=TN03C3)
+  2. Car constructor
+  3. ElectricCar constructor (battery=40 kWh)
+ElectricCar TN03C3 @ Rs 30.0/h, battery 40 kWh
+
+Creating new TwoWheeler("TN01A1"):
+  1. Vehicle constructor  (regNo=TN01A1)
+  2. TwoWheeler constructor
+TwoWheeler TN01A1 @ Rs 10.0/h
+
+Users:
+  Student Asha may hold monthly pass: true
+  Staff Ravi may hold monthly pass: true
+  Visitor Guest may hold monthly pass: false
+
+Composition alternative (no subclass needed for a new type):
+  EBike TN07E7 130 min -> Rs 15.0
