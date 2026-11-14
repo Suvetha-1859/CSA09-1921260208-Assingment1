@@ -1,0 +1,6 @@
+F x S          slots    scan: release+allocate ns  stack: release+allocate ns
+1 x 20         20       20                         23                        
+3 x 50         150      360                        19                        
+5 x 100        500      174                        18                        
+50 x 1000      50000    15253                      202                       
+(sink=31586536)
